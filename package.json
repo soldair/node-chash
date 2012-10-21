@@ -1,0 +1,28 @@
+{
+  "name": "chash",
+  "version": "0.0.0",
+  "description": "hash a value to a consistent number within a specified range. in goes key out goes number that's it.",
+  "main": "chash.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/soldair/node-chash.git"
+  },
+  "keywords": [
+    "consistent",
+    "hash",
+    "distribution",
+    "hashing",
+    "ring"
+  ],
+  "devDependencies":{
+    "tap":"*"
+  },
+  "author": "Ryan Day <soldair@gmail.com>",
+  "license": "BSD"
+}
