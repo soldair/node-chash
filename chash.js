@@ -2,7 +2,7 @@ var crypto = require('crypto');
 
 module.exports = function(str,buckets){
   b = md5(str);
-  return b.readUInt32LE(0)%buckets;
+  return Math.floor(b.readUInt32LE(0)%buckets);
 }
 
 var md5 = function(str){
