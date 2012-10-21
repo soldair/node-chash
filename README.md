@@ -1,4 +1,3 @@
-
 [![Build Status](https://secure.travis-ci.org/soldair/node-chash.png)](http://travis-ci.org/soldair/node-chash)
 
 # node-chash
