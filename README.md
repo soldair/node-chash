@@ -24,6 +24,4 @@ console.log('sue will always be',colors[suescolor]);
 
 ## notes
 
-this distribution algorithm is resonably good producing 0.6-2 % error in assignment using Math.random as input with 100-100000 buckets
-will work on getting better numbers. will always accept pull requests that contain a proper statistical description of this behavior
-
+random distribution
